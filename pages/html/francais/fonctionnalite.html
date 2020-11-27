@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <title>Fonctionnalités</title>
+
+  <link rel="stylesheet" href="../../css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="../../css/header-footer.css" type="text/css">
+  <link rel="stylesheet" href="../../css/fonctionnalites.css" type="text/css">
+
+
+  <link rel="icon" href="../../../image/favicon.ico" type="image/gif">
+
+
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Vous souhaitez vous renseigner sur le réseau social Discord ? Vous êtes au bon endroit.">
+  <meta name="keywords" content="Discord, discord, réseau social, explications">
+  <meta name="author" content="SIMIONI Enzo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta property="og:image" content="https://enzo.simioni.eu/image/og/fonctionnalitesog.png" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image:width" content="1920" />
+  <meta property="og:image:height" content="1080" />
+  <meta property="og:site_name" content="enzo.simioni.eu" />
+
+</head>
+
+<body id="up">
+  <header id="header">
+    <nav class="menu">
+
+      <div class="inner">
+
+        <div class="m-left">
+
+          <div id="Nav" class="overlay">
+
+            <a href="javascript:void(0)" class="closecross" onclick="closeNav()">&times;</a>
+
+            <div class="overlay-content">
+
+              <a href="mailto:enzosimioni.eu@gmail.com" class="overlay-link">Contact</a>
+              <a href="a_propos.html" class="overlay-link">À propos</a>
+              <a href="../../../download/simioni_eu.zip" download="simioni_eu_folder" class="overlay-link">Télécharger
+                le site en .zip</a>
+              <a href="../english/fonctionnalite_en.html" class="overlay-link">Switch to English</a>
+            </div>
+
+          </div>
+
+          <span><img src="../../../image/navigation-menu.svg" alt="menu" class="hamburger svg"
+              onclick="openNav()"></span>
+
+
+        </div>
+
+        <div class="m-center">
+
+
+          <h1>
+            <img src="../../../image/qu_est_discord.png" class="logo" alt="Logo" />
+            <a href="../../../index.html" class="m-title">Qu'est-ce que Discord ?</a>
+          </h1>
+
+          <nav class="mob-nav">
+
+
+            <h1>
+              <img src="../../../image/rounded-down.svg" alt="rubriques" class="open-mob-overlay svg"
+                onclick="openMobNav()">
+
+              <a href="../../../index.html" class="mob-title">Qu'est ce que Discord</a>
+            </h1>
+
+            <!--Menu for smartphones-->
+          </nav>
+
+        </div>
+
+        <div class="m-right">
+          <a href="presentation.html" class="m-link">présentation</a>
+          <a href="#up" class="m-link">fonctionnalités</a>
+          <a href="modele_economique.html" class="m-link">modèle économique</a>
+          <a href="suivix.html" class="m-link">suivix</a>
+        </div>
+
+      </div>
+
+      <div id="MobNav" class="mob-section-overlay">
+        <a href="javascript:void(0)" class="closecross" onclick="closeMobNav()">&times;</a>
+        <div class="mob-section-overlay-content">
+          <a href="presentation.html" class="mob-overlay-link">présentation</a>
+          <a href="fonctionnalite.html" class="mob-overlay-link">fonctionnalités</a>
+          <a href="modele_economique.html" class="mob-overlay-link">modèle économique</a>
+          <a href="suivix.html" class="mob-overlay-link">suivix</a>
+        </div>
+      </div>
+
+
+    </nav>
+  </header>
+
+  <img src="../../../image/ice_rink.jpg" class="hero-img" alt="ice rink" />
+
+  <!-- illustration from https://fr.freepik.com/vecteurs-libre/patinoire-nuit-lieu-public-vide-pour-patinage_6823050.htm#page=1&query=mountain%20illustration&position=10-->
+
+  <div class="hero-text">
+    <h1>Fonctionnalités</h1>
+  </div>
+
+  <p>Vous trouverez sur cette page les informations relatives :</p>
+  <ul>
+    <li class="reveal"> <span class="para-link"><a href="#private_chat">Aux discussions privées</a></span></li>
+    <li class="reveal"> <span class="para-link"><a href="#serveur">Aux serveurs</a></span></li>
+    <li class="reveal"> <span class="para-link"><a href="#bot">Aux Bot</a></span></li>
+
+  </ul>
+
+  <h2 class="para-title" id="private_chat">1.Les discussions privées </h2>
+  <p>Avant de s'intéresser directement aux discussions privées, il semble important de rapidement préciser
+    comment fonctionne l'ajout de contacts sur Discord. Il y a deux moyens d'ajouter un autre utilisateur sur cette
+    plateforme :
+  <ul>
+    <li class="reveal">En passant par un autre support de communication, afin que votre contact vous donne son
+      identifiant Discord composé de son pseudonyme suivi de <em>#XXXX</em> où chaque <em>X</em> est un nombre de 0 à 9
+    </li>
+    <li class="reveal">En passant par un <span class="para-link"><a href="#serveur">serveur</a></span> sur lequel vous
+      êtes tous deux
+      présents</li>
+  </ul>
+  </p>
+  <p>
+    Comme la majorité des logiciels de
+
+    <i onmouseover="visibilite('id_div_1'); return false;"
+      onmouseout="javascript:visibilite('id_div_1'); return false;">VoIP </i>
+
+    Discord propose un système de discussions privées,
+    que ce soit avec une ou plusieurs personnes <em>(jusqu’à 10 comptes dans un même groupe)</em>.
+    On trouve dans ces discussions des fonctionnalités diverses, de la plus classique comme
+    l’appel vocal à la moins commune comme le<span class="para-link"><a href="#call-share"> partage d’écran</a></span>
+    ou la possibilité d'<span class="para-link"><a href="#pin">épingler</a></span> des messages.
+
+
+  <div id="id_div_1" style="display:none;" class="explanation">
+    Le terme VoIP ou Voix sur IP désigne un système capable de transformer
+    des signaux audio analogiques en données numériques, en somme, des appesl téléphoniques par internet
+
+  </div>
+
+
+  </p>
+
+  <img src="../../../image/private_chat.png" alt="image d'un chat privé" class="img1" />
+
+  <ol class="reveal-r">
+    <li>1. Pseudonyme et <span class="para-link"><a href="#connexion">statut de connexion</a></span></li>
+    <li>2. <span class="para-link"><a href="#call-share">Appels</a></span> vidéo, audios et <span class="para-link"><a
+          href="#call-share">partage d'écran</a></span></li>
+    <li>3. Messages <span class="para-link"><a href="#pin">épinglés</a></span></li>
+  </ol>
+
+  <h3 id="connexion">1. Le statut de connexion</h3>
+  <p>
+    Ce paramètre vous permet de préciser aux autres utilisateurs votre état de <em>présence</em> sur l'application
+    lorsqu'elle est ouverte.
+    Il dispose de 5 valeurs :
+  </p>
+  <img src="../../../image/connexion.png" alt="les différents statuts de connexion" class="img1-1 reveal-l" />
+
+  <ul class="legend">
+    <li><strong>En ligne</strong> : vous êtes en train d'utiliser l'application </li>
+    <li><strong>Inactif</strong> : vous n'êtes pas sur votre ordinateur ou vous êtes occupé à une autre tâche mais vous
+      êtes apte à répondre </li>
+    <li><strong>Ne pas déranger</strong> : Vous êtes occupé et ne répondrez donc pas en cas de message ou d'appel,
+      désactive toutes les notifications par la même occasion</li>
+    <li><strong>Invisible</strong> : vous apparaissez hors ligne pour les autres utilisateurs</li>
+    <li><strong>Personnalisé</strong> : vous définissez vous-même votre état de connexion exemple pour un enseignant :
+      "fait cours aux premières"</li>
+
+  </ul>
+
+  <h3 id="call-share">2. Appels et partage d'écran</h3>
+
+  <p> Si les fonctions d'appels audio et vidéo sont communes à tous les logiciels de
+    <i onmouseover="visibilite('id_div_2'); return false;"
+      onmouseout="javascript:visibilite('id_div_2'); return false;">VoIP </i>
+
+    et plus largement à tous les logiciels de communication, il convient de clarifier le terme de <em>partage
+      d'écran</em>.
+    Une fois un appel rejoint, qu'il soit audio ou vidéo, un bouton semblable à ceux d'extinction du micro
+    ou de la fin d'appel apparaît, représentant un écran. Si vous cliquez dessus voici ce que vous verrez :
+
+
+  <div id="id_div_2" style="display:none;" class="explanation">
+    Le terme VoIP ou Voix sur IP désigne un système capable de transformer
+    des signaux audio analogiques en données numériques, en somme, des appesl téléphoniques par internet
+
+  </div>
+
+
+
+  </p>
+
+  <img src="../../../image/private_chat_screenshare.png" alt="fenêtre de partage d'écran" class="img1-2" />
+
+  <ul>
+    <li class="l2 reveal-r">1. La fenêtre que vous diffusez en direct dans l'appel</li>
+    <li class="reveal-r">2. L'endroit où vous le diffusez (<span class="para-link"><a href="#private_chat">discussion
+          privée</a></span>
+      ou <span class="para-link"><a href="#serveur">serveur</a></span>)</li>
+    <li class="reveal-r">3. La résolution à laquelle vous diffusez cette fenêtre : jusqu’à 720p <em>(HD)</em> 30 images
+      par seconde.
+      Peut aller jusqu’à la résolution de la source <em>d'ULTRA HD à 6K</em> et 60 images par seconde avec l'abonnement
+      nitro (voir <span class="para-link"><a href="modele_economique.html">modèle économique</a></span>) </li>
+  </ul>
+
+
+  <h3 id="pin">3. Les messages épinglés</h3>
+  <p>Il est en effet possible d'épingler les messages afin de les <em>mettre de côté</em>.
+    Il est ainsi possible de retrouver tous les messages épinglés en cliquant sur la punaise
+    en haut à droite de l'écran. Dans le cadre d'une discussion privée, cette fonctionnalité
+    peut être utile afin de facilement retrouver des informations comme le contact professionnel
+    de votre interlocuteur ou encore l'horaire d'un rendez-vous que vous auriez épinglé.
+  </p>
+  <p>
+    Sur un
+    <span class="para-link"><a href="#serveur">serveur</a></span>, cette fonctionnalité
+    permet d'avoir rapidement accès aux annonces faites par les autres utilisateurs ou encore
+    aux règles du <span class="para-link"><a href="#serveur">serveur</a></span> en question. Il
+    est toutefois important de préciser que si les messages épinglés sont accessibles à tous
+    les utilisateurs du <span class="para-link"><a href="#serveur">serveur</a></span>, la fonction
+    d'épingler un message dépend du <span class="para-link"><a href="#role">rôle</a></span> et des
+    autorisations qui vont avec.
+  </p>
+
+
+
+  <h2 class="para-title" id="serveur">2.Les serveurs</h2>
+
+  <p>Les serveurs sont en grande partie responables du succès de Discord. Chaque utilisateur
+    peut créer autant de serveurs communautaires qu'il le souhaite sur les sujets qui l'intéressent
+    et y inviter d'autres utilisateurs via un lien. La création d'un serveur revient finalement à
+    créer un <em>sous-réseau</em> à l'intérieur de Discord.
+
+  </p>
+  <p>
+    Cette décomposition de l'application
+    en une quantité astronomique de sous réseaux permet à chacun d'y trouver son compte, et quand bien même un
+    utilisateur ne trouverait pas de serveur sur le sujet qui l'intéresse, il peut en créer un lui-même.
+  </p>
+  <p class="para-serv">
+    Voici comment se présente un serveur :
+  </p>
+  <img class="img2" src="../../../image/serveur_chat.png" alt="image d'un serveur"
+    title="Le serveur francophone Dev'Area, basé sur l'entraide entre développeurs" />
+
+  <ol class="reveal-r">
+    <li>1. Paramètres de notifications</li>
+    <li>2. Messages <span class="para-link"><a href="#pin">épinglés</a></span></li>
+    <li>3. <span class="para-link"><a href="#role">Rôles</a></span> des membres*</li>
+    <li>4. Membres (par <span class="para-link"><a href="#role">rôles</a></span>) avec leur avatar et leur <span
+        class="para-link"><a href="#connexion">statut de connexion</a></span>
+    </li>
+    <li>5. <span class="para-link"><a href="#chanel">Salon</a></span> textuel**</li>
+    <li>6. <span class="para-link"><a href="#chanel">Salon</a></span> vocal**</li>
+  </ol>
+
+  <h3 id="role">* Les rôles</h3>
+  <p>
+    Les rôles permettent d'une part a l'administrateur (créateur) du serveur de déléguer
+    en partie son autorité liée à la gestion du serveur à des modérateurs mais également de différencier les membres
+    du serveur entre eux.
+  </p>
+
+  <p>
+    En effet, lorsque l'administrateur du serveur crée un rôle, il décide également des autorisations octroyées au
+    titulaire
+    du rôle en question. Ces autorisations vont de la simple possibilité d'accéder à certains <span class="para-link"><a
+        href="#chanel">salons</a></span>
+    ou d'épingler des messages à celle de bannir définitivement un membre du serveur.
+  </p>
+
+  <p>
+    La précense des rôles permet aussi de différencier les membres entre eux. Dans l'exemple ci-dessus du serveur
+    francophone <span class="para-link"><a href="https://disboard.org/fr/server/768370886532137000"
+        target="_blanck">Dev'Area</a></span>
+    , basé sur l'entraide entre développeurs, les rôles permettent de distinguer le niveau d'expérience de chaque
+    utilisateur <em>(professionnel, intermédiaire ou débutant)</em>.
+
+  </p>
+
+  <h3 id="chanel">** Les salons</h3>
+
+  <p>
+    Part importante des serveurs, les salons permettent d'organiser les discussion en donnant à chaque salon son
+    thème et en définissant quels utilisateurs y ont accès. Ils sont comparables aux discussions privées mais on le net
+    avantage d'être accessibles à <em>tous</em> les membres du serveur (peut dépendre du <span class="para-link"><a
+        href="#role">rôle</a></span> des membres ) .
+  </p>
+  <p>
+    Il en existe deux types :
+  </p>
+  <ul>
+    <li>Les salons textuels, où peuvent être partagés des messages, des images, des liens ou encore des gifs</li>
+    <li>Les salons vocaux, pour dialoguer à l'oral avec les autres membres du serveur. Ils peuvent aller de 2 à 99
+      utilisateurs</li>
+  </ul>
+
+  <h2 class="para-title" id="bot">3. Les Bot</h2>
+
+  <p>
+    Bien que l'application dispose déjà de bien des fonctionnalités, certaines manquent et d'autres peuvent être
+    améliorées.
+    Les utilisateurs ont donc trouvé une solution, approuvée par l'entreprise, les Bot. Discord a donc mis à disposition
+    des utilisateurs la possibilité de développer leurs propre Bot. Abréviation de <em>robot</em>, ces programmes
+    servent
+    à automatiser certaines tâches, faisant ainsi gagner du temps aux utilisateurs.
+  </p>
+  <p>Quelques exemples de Bot :</p>
+  <ul>
+    <li class="reveal"><strong>DraftBot</strong>, Bot de modération pouvant supprimer les messages selon certains
+      critères et
+      sanctionner les membres en conséquence </li>
+    <li class="reveal"><strong>Mee6</strong>, Bot de gestion permettant l'envoie automatique de messages (pour annoncer
+      la publication
+      d'une vidéo sur <em>Youtube</em> par exemple)</li>
+    <li class="reveal"><strong>Rythm</strong>, Bot musicale permettant de jouer de la musique dans les <span
+        class="para-link"><a href="#chanel">salons</a></span>,
+      textuels ou vocaux, en allant chercher les musiques sur <em>Youtube</em></li>
+    <li class="reveal"> <strong>Suivix</strong>, Bot permettant aux enseignants de faire l'appel (plus d'informations
+      dans la rubrique
+      <span class="para-link"><a href="suivix.html">suivix</a></span>)</li>
+  </ul>
+  <br />
+  <footer id="footer">
+
+    <nav class="footer">
+
+      <div class="footer-content">Fait avec &ensp; <img src="../../../image/heart.svg" class="svg footer-heart"
+          alt="amour"> &emsp; &ensp; par Enzo SIMIONI</div>
+
+    </nav>
+
+  </footer>
+
+
+
+  <script src="../../js/curtain.js" type="text/javascript"></script>
+  <script src="../../js/scroll.js" type="text/javascript"></script>
+  <script src="../../js/explanation.js" type="text/javascript"></script>
+</body>
+
+</html>
