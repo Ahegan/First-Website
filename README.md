@@ -5,4 +5,4 @@ This project is a my first website. Made for my school, it simply present Discor
 You can see the website at : https://enzo.simioni.eu/pages/html/english/index_en.html
 <img src="https://enzo.simioni.eu/image/og/indexog_en.png"
      alt="preview of the website"
-     style="display: block; margin-right: auto; margin-left: auto; margin-top:20px;" />
+     style="display: block; margin-right: auto; margin-left: auto; margin-top:75px;" />
