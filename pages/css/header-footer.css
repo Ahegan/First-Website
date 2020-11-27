@@ -1,0 +1,266 @@
+header {
+    width: 100%;
+    height: 68px;
+    line-height: 68px;
+    background-color: rgb(39, 40, 42);
+    z-index: 1000;
+}
+
+.menu {
+    width: 100%;
+    height: 68px;
+    line-height: 68px;
+    background-color: rgb(39, 40, 42);
+    box-shadow: 2px 0px 9px 3px rgb(142, 161, 225);
+    position: fixed;
+    z-index: 1000;
+}
+
+.m-left {
+    float: left;
+}
+
+.hamburger {
+    margin-left: 20px;
+    margin-top: 13px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: rgb(54, 57, 64);
+    overflow-x: hidden;
+    transition: all 0.25s;
+}
+
+.overlay-link {
+    display: block;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    color: rgb(130, 135, 153);
+    transition: all 0.25s ease-in-out;
+}
+
+.overlay-content {
+    position: relative;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.overlay-content :hover {
+    color: rgb(255, 255, 255);
+}
+
+.closecross {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 60px;
+    color: rgb(130, 135, 153);
+    transition: all 0.25s ease-in-out;
+}
+
+a .closecross :hover {
+    color: rgb(255, 255, 255);
+}
+
+.m-center {
+    float: left;
+    margin-left: 200px;
+}
+
+.logo {
+    width: 70px;
+    float: left;
+    margin-top: 13px;
+}
+
+.m-title {
+    margin-left: 15px;
+    font-family: prestageregular;
+    font-size: 43px;
+    transition: all 0.25S ease-in-out;
+}
+
+.m-title:hover {
+    color: rgb(166, 176, 207);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 3);
+}
+
+.mob-nav {
+    display: none;
+}
+
+.mob-section-overlay {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    height: 0%;
+    width: 100%;
+    background-color: rgb(54, 57, 64);
+    overflow-x: hidden;
+    transition: all 0.25s;
+}
+
+.mob-section-overlay-content {
+    position: relative;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.mob-overlay-link {
+    display: block;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgb(130, 135, 153);
+}
+
+.m-right {
+    float: right;
+    margin-right: 78px;
+}
+
+.m-link {
+    position: inherit;
+    margin-left: 19px;
+    margin-right: 19px;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+}
+
+.m-link:hover {
+    padding-bottom: 1.5px;
+    color: rgb(166, 176, 207);
+}
+
+.footer {
+    bottom: 0px;
+    margin-top: 100px;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    background-color: rgb(166, 176, 207);
+}
+
+.footer-content {
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer-heart {
+    position: absolute;
+    margin-top: 16px;
+    float: right;
+    width: 25px;
+}
+
+@media only screen and (max-width:1600px) {
+    .m-link {
+        font-size: 17.5px;
+    }
+}
+
+@media only screen and (max-width:1450px) {
+    .m-center {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width:1330px) {
+    .m-title {
+        display: none;
+    }
+    .m-center {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width:963px) {
+    .m-right {
+        margin-right: 25px;
+    }
+    .m-link {
+        margin-right: 17px;
+        margin-left: 17px;
+        font-size: 16.5px;
+    }
+    .anchor {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:870px) {
+    .m-link {
+        margin-right: 13px;
+        margin-left: 13px;
+        font-size: 14.5px;
+    }
+    .hamburger {
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .menu {
+        height: 60px;
+    }
+    .logo {
+        display: none;
+    }
+    .m-right {
+        display: none;
+    }
+    .mob-nav {
+        display: initial;
+    }
+    .mob-title {
+        margin-left: 9px;
+        font-family: prestageregular;
+        font-size: 40px;
+    }
+    .open-mob-overlay {
+        float: left;
+        margin-top: 13px;
+        width: 50px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .mob-title {
+        font-size: 31px;
+        top: 3px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .mob-title {
+        margin: 0px;
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width:370px) {
+    .mob_logo {
+        width: 39px;
+    }
+    .mob-title {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,174 @@
+header {
+    margin-bottom: 32px;
+}
+
+.profil_img {
+    float: left;
+    margin-top: 43px;
+    margin-right: 60px;
+    margin-left: 52px;
+    margin-bottom: 13px;
+    width: 260px;
+    border-radius: 3px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 3);
+}
+
+.b-title {
+    display: inline;
+    margin-left: 120px;
+    padding-top: 100px;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+p {
+    margin: 12px;
+    margin-right: 52px;
+    margin-left: 52px;
+    padding: 6px;
+    font-size: 29px;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    word-spacing: 10px;
+    text-indent: 70px;
+    text-align: justify;
+}
+
+ul {
+    margin: 12px;
+    margin-right: 52px;
+    margin-left: 70px;
+    padding: 6px;
+    font-size: 29px;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    word-spacing: 10px;
+    text-indent: 10px;
+    text-align: justify;
+    list-style-type: circle;
+}
+
+li {
+    padding: 5px;
+}
+
+@media only screen and (max-width:1450px) {
+    .profil_img {
+        width: 230px;
+    }
+    p {
+        font-size: 25px;
+    }
+    ul {
+        font-size: 25px
+    }
+}
+
+@media only screen and (max-width:963px) {
+    .profil_img {
+        width: 205px;
+    }
+    p {
+        font-size: 23px;
+    }
+    ul {
+        font-size: 23px
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .profil_img {
+        width: 180px;
+    }
+    p {
+        font-size: 21px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    ul {
+        font-size: 21px
+    }
+}
+
+@media only screen and (max-width:662px) {
+    .profil_img {
+        position: absolute;
+        z-index: -1;
+        float: none;
+        top: 20px;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        filter: brightness(50%);
+        box-shadow: none;
+    }
+    .b-title {
+        margin-top: 200px;
+    }
+    p {
+        font-size: 21px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .para1 {
+        padding-bottom: 38px;
+    }
+    ul {
+        font-size: 21px
+    }
+    li {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .profil_img {
+        height: 30%;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .profil_img {
+        height: 73%;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .profil_img {
+        height: 90%;
+    }
+    ul {
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    .profil_img {
+        height: 45%;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .profil_img {
+        height: 45%;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .profil_img {
+        height: 60%;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .profil_img {
+        height: 70%;
+    }
+}
+
+@media only screen and (min-height: 1366px) {
+    .ipad_br {
+        display: none;
+    }
+}
