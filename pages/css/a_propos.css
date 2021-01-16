@@ -52,6 +52,18 @@ li {
     padding: 5px;
 }
 
+.para-link a {
+    display: inline;
+    font-weight: bold;
+    color: rgb(150, 162, 202);
+    text-decoration: underline rgb(54, 57, 64);
+    transition: all 0.25s ease-in-out;
+}
+
+.para-link :hover {
+    text-decoration: underline;
+}
+
 @media only screen and (max-width:1450px) {
     .profil_img {
         width: 230px;
