@@ -18,5 +18,11 @@ function rotate() {
     document.getElementById("rot").style.transform = "rotate(7turn)"
 }
 
+var d = new Date();
+
+if (d.getMonth() == 0) {
+    document.getElementById("hny").innerHTML = "Happy new year";
+}
+
 
 
