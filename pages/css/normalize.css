@@ -6,11 +6,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
- 
+
 /* a light CSS rest + Fonts and Web safe fonts(same as Discord main site)*/
 
 body {
     background-color: rgb(54, 57, 64);
+    transform: rotate(1);
+    transition: all 0.5s ease-in-out;
 }
 
 p {
@@ -62,6 +64,7 @@ em {
     transform: translateX(0px);
     transition: all .52s ease-in-out;
 }
+
 
 /*fonts import*/
 

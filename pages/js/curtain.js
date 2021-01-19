@@ -20,9 +20,5 @@ function rotate() {
 
 var d = new Date();
 
-if (d.getMonth() == 0) {
-    document.getElementById("hny").innerHTML = "Happy new year";
-}
-
 
 

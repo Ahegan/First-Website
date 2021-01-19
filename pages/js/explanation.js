@@ -7,3 +7,4 @@ function visibilite(thingId) {
         targetElement.style.display = "none";
     }
 }
+
